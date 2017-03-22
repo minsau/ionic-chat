@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+
+.item{
+    border-top: 0px solid black !important;
+    border-left: 0px solid black !important;
+    border-right: 0px solid black !important;
+    border-bottom: 0px solid black !important;
+    margin-bottom: 5%;
+}
+
+.regresar:active{
+    background-color: lightgrey !important;
+}

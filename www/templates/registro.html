@@ -1,0 +1,32 @@
+      <ion-header-bar class="bar-header bar bar-dark">
+          <h1 class="title icon ion-arrow-left-c" ng-click="regresar()">
+              {{"     "}}Registrarse
+          </h1>
+      </ion-header-bar>    
+      <ion-content has-header="true" padding="true">
+        <form name="signUpForm">
+            <label class="item item-input">
+                <span class="input-label">Correo: </span>
+                <input type="email" placeholder="Ingresa tú correo" 
+                    ng-model="usuario.email"
+                    ng-minlength="5"  required>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Contraseña: </span>
+                <input type="password" placeholder="*******" 
+                    ng-model="usuario.password"
+                    ng-minlength="6" required >
+            </label>
+            </div>
+            <button class="button button-dark button-block icon-left ion-android-person" ng-click="registrarse()">
+            Registrarse con correo
+            </button>
+        </form>
+        <button class="button button-assertive button-block icon-left ion-social-google boton-social">
+          Google
+        </button>
+
+        <button class="button button-positive button-block icon-left ion-social-facebook boton-social">
+          facebook
+        </button>
+      </ion-content>
